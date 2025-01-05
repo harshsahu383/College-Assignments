@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.child{
+    margin-left: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

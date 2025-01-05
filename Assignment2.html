@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="css/ass2.css">
+</head>
+<body>
+    <div class="container">
+    <div class="child">Home</div>
+    <div class="child">About</div>
+    <div class="child">Contact</div>
+    <div class="child">Gallery</div>
+    <div class="child">Blogs</div>
+</div>
+<script>
+   let divs = document.querySelectorAll(".child");
+
+   divs.forEach(div => {
+
+    div.addEventListener("click", () => {
+        if(div.style.backgroundColor === "red"){
+            div.style.backgroundColor = "pink";
+            div.style.color = "black";
+        }
+      else {
+        div.style.backgroundColor = "red";
+        div.style.color = "white";
+      }
+
+   });
+  
+
+   });
+
+   
+</script>
+</body>
+</html>
