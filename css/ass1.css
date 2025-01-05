@@ -1,0 +1,19 @@
+body{
+    background-color: lightpink;
+}
+span{
+    font-style: italic;
+    color: red;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    font-size: 29px;
+
+}
+.can{
+    margin-left: 10px;
+}
