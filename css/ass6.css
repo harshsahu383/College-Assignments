@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    
+    
+}
+.container li {
+    list-style: none;
+}
+.About{
+    margin-left: 70rem;
+}
+.Contact{
+margin-left: 8px;
+}
+body{
+    background-color: lightgray;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 43px;
+}
+.border{
+    height: 0px;
+    width: 461px;
+    border: 1px solid black;
+    margin-top: -7px;
+    margin-left: 79px;
+    display: block;
+}
