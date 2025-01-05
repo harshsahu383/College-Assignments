@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+    <link rel="stylesheet" href="css/ass3.css">
+</head>
+<body>
+    <h1> CSS backgrounds</h1>
+    <button class="btncolor">Background Color</button> 
+    <button class="btnimage">Background image</button>
+    <div class="container">
+    <div class="child colordiv"> background color</div>
+    <div  class="child imgdiv"> background image</div>
+</div>
+<script>
+    let btncol  = document.querySelector(".btncolor");
+    let btnimg = document.querySelector(".btnimage");
+
+    let divcol = document.querySelector(".colordiv");
+    let divimg = document.querySelector(".imgdiv");
+
+    btncol.addEventListener("click", () => {
+        if(divcol.style.backgroundColor === "red"){
+            divcol.style.backgroundColor = "blue";
+        }
+        else{
+            divcol.style.backgroundColor = "red";
+        }
+      
+
+    });
+    let imageToggled = false;
+        btnimg.addEventListener("click", () => {
+            if (imageToggled) {
+                divimg.style.backgroundImage = "url('images/image.png')";
+            } else {
+                divimg.style.backgroundImage = "url('images/ass3.png')";
+            }
+            imageToggled = !imageToggled;
+        });
+
+</script>
+    
+</body>
+</html>

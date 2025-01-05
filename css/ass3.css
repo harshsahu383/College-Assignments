@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.child{
+    height: 20rem;
+    width: 100%;
+    border: 1px solid;
+}
+.btncolor{
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.btnimage{
+
+
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.imgdiv img{
+    height: 321px;
+    width: 100%;
+    overflow: hidden;
+}
