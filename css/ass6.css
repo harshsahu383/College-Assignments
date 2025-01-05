@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container{
     display: flex;
     
@@ -28,4 +32,63 @@ body{
     margin-top: -7px;
     margin-left: 79px;
     display: block;
+}
+.alex{
+    margin-top: 20px;
+    font-size: 47px;
+}
+.container3{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100px;
+
+}
+.container3 img{
+    margin-top: 400px;
+}
+.container4{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100px;
+
+}
+.container5{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30rem;
+
+}
+footer{
+    display: flex;
+    height: 15rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 20rem;
+}
+.footer{
+    height: 15rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding:25px 25px;
+
+}
+.input{
+    display: flex;
+    height: 100%;
+}
+.input input{
+    margin-top: 8rem;
+    margin-left: 10rem;
+    height: 50px;
+}
+.input button{
+    height: 50px;
+    margin-top: 8rem;
 }
